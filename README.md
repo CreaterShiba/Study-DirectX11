@@ -8,7 +8,8 @@ DirectX11のライブラリ実装＆ゲーム実装テスト<br>
 ・カメラ、デバッグ用フリーカメラ<br>
 ・FBXSDKを用いたモデル読み込み、描画<br>
 ・スキンメッシュアニメーション<br>
-・Defferd Rendering
+・Defferd Rendering<br>
+・音声再生
 
 ----
 環境<br>
