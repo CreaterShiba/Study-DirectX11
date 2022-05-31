@@ -1,5 +1,5 @@
 # Study-DirectX11
-DirectX9→DirectX11のライブラリ実装＆ゲーム実装テスト<br>
+DirectX11のライブラリ実装＆ゲーム実装テスト<br>
 ～2015（アーカイブ済み）
 
 ----
