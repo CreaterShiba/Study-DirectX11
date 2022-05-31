@@ -1,0 +1,895 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameSystem">
+      <UniqueIdentifier>{9256b18e-71d4-48e2-8d37-a4d483b395d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\Collision">
+      <UniqueIdentifier>{dd6ec532-f25d-4a09-b0c3-59ca2da93b66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\Init">
+      <UniqueIdentifier>{44122c24-2f1d-40cf-825f-ecd2e6ba280e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\Init\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameSystem\Init\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="GameSystem\Init\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="GameSystem\Stage">
+      <UniqueIdentifier>{266ab2ab-e96b-4791-a16e-113e621370dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\Scene">
+      <UniqueIdentifier>{b376b4bd-5e64-4d71-86fd-4fe7d35a7e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\Unit">
+      <UniqueIdentifier>{0a428bb3-1598-4329-8d8b-3566858b970f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\Gimmick">
+      <UniqueIdentifier>{1b3f05c1-a274-41df-8e47-f6bae81d0c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib">
+      <UniqueIdentifier>{14cfce74-bc4e-4615-89ae-5b40d9595fd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Win32">
+      <UniqueIdentifier>{6344da61-96a9-4b23-880a-030db47453fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Utility">
+      <UniqueIdentifier>{56f05d40-fe51-4c48-a37c-38566e6e3f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\DXUtil">
+      <UniqueIdentifier>{15b94e66-90e8-4870-bfbe-15d3b54d61f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Rendering">
+      <UniqueIdentifier>{4405f42f-06c8-4401-a4a3-b800d62d02db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Rendering\ShaderFile">
+      <UniqueIdentifier>{3092381a-3204-4456-9713-e1ecc8cdb07d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Rendering\Shader">
+      <UniqueIdentifier>{9cf39274-c4c9-4ef3-92ac-eae0851a909b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Asset">
+      <UniqueIdentifier>{d71cd5e8-469d-41dc-a950-d0bcf95a9e99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\DirectXTex">
+      <UniqueIdentifier>{327dcc90-992c-4d5e-8441-3cfc1e60bb47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Math">
+      <UniqueIdentifier>{8924dde4-2df0-4497-8645-2b80acb82abb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Task">
+      <UniqueIdentifier>{9fcd54a5-2588-4eab-9911-42c39314113e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Debugger">
+      <UniqueIdentifier>{7776f3e8-bcf6-40b5-a89a-14b4637b1623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Camera">
+      <UniqueIdentifier>{6f5462f6-949c-4f2d-9a26-284b40c9f9ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\FileIO">
+      <UniqueIdentifier>{4491d20b-4d1e-4822-93c9-e63dbe9fb616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Font">
+      <UniqueIdentifier>{a25996e0-dace-4205-8102-cf5eca63f9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Input">
+      <UniqueIdentifier>{a7639c45-8a54-4b75-b061-5fdd3cfdb6a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Loader">
+      <UniqueIdentifier>{25ba799b-d9c8-4d6a-a6ef-e51003b6c04e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Sound">
+      <UniqueIdentifier>{f15c3051-aeba-4c22-a4e4-ecb3c75d51c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Scene">
+      <UniqueIdentifier>{e9f65212-8ef3-4ac7-bf5b-51c57a392e6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\Collision">
+      <UniqueIdentifier>{79c8ea41-8ee9-4c64-b8e4-16308b5726e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLib\MotionEvent">
+      <UniqueIdentifier>{e97d4059-0a27-4c6d-b0ae-7e11a28e4e81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\FrameWork\Loader\_memo_Loader.txt">
+      <Filter>GameLib\Loader</Filter>
+    </Text>
+    <Text Include="src\FrameWork\Asset\_memo_Asset.txt">
+      <Filter>GameLib\Asset</Filter>
+    </Text>
+    <Text Include="src\FrameWork\Camera\_memo_Camera.txt">
+      <Filter>GameLib\Camera</Filter>
+    </Text>
+    <Text Include="src\FrameWork\Debugger\_memo_Debugger.txt">
+      <Filter>GameLib\Debugger</Filter>
+    </Text>
+    <Text Include="src\FrameWork\Collision\_memo_Collision.txt">
+      <Filter>GameLib\Collision</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ntg.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Utility\UtilDefine.h">
+      <Filter>GameLib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Utility\UtilMacro.h">
+      <Filter>GameLib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Win32\Window.h">
+      <Filter>GameLib\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\DXUtil\DXMng.h">
+      <Filter>GameLib\DXUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystem\GameSystem.h">
+      <Filter>GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Utility\UtilHash.h">
+      <Filter>GameLib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\DirectXTex\DirectXTex.h">
+      <Filter>GameLib\DirectXTex</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\RenderingManager.h">
+      <Filter>GameLib\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Asset\AssetBase.h">
+      <Filter>GameLib\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Asset\AssetTexture.h">
+      <Filter>GameLib\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Asset\AssetMesh.h">
+      <Filter>GameLib\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Math\vector2.h">
+      <Filter>GameLib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Math\vector3.h">
+      <Filter>GameLib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Utility\UtilMath.h">
+      <Filter>GameLib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\DXUtil\UtilDX11.h">
+      <Filter>GameLib\DXUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stdafx.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Asset\AssetModel.h">
+      <Filter>GameLib\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Task\Task.h">
+      <Filter>GameLib\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\Model.h">
+      <Filter>GameLib\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\Sprite.h">
+      <Filter>GameLib\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Task\TaskScheduler.h">
+      <Filter>GameLib\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\Render.h">
+      <Filter>GameLib\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Utility\UtilCoord.h">
+      <Filter>GameLib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Utility\UtilBit.h">
+      <Filter>GameLib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\RenderingContext.h">
+      <Filter>GameLib\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\RenderingStage.h">
+      <Filter>GameLib\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Utility\UtilInterface.h">
+      <Filter>GameLib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\Joint.h">
+      <Filter>GameLib\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\Motion.h">
+      <Filter>GameLib\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Math\vector4.h">
+      <Filter>GameLib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Debugger\DebugProfile.h">
+      <Filter>GameLib\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Debugger\DebugConsole.h">
+      <Filter>GameLib\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Debugger\DebugFps.h">
+      <Filter>GameLib\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Camera\CameraBase.h">
+      <Filter>GameLib\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Camera\CameraManager.h">
+      <Filter>GameLib\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Camera\DebugCamera.h">
+      <Filter>GameLib\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Utility\UtilColor.h">
+      <Filter>GameLib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Utility\UtilEndian.h">
+      <Filter>GameLib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Utility\UtilInput.h">
+      <Filter>GameLib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\FileIO\FileIOBase.h">
+      <Filter>GameLib\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\FileIO\FileIOWin.h">
+      <Filter>GameLib\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Font\FontFile.h">
+      <Filter>GameLib\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Font\FontManager.h">
+      <Filter>GameLib\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Font\UtilFont.h">
+      <Filter>GameLib\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Font\FontDataType.h">
+      <Filter>GameLib\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Input\InputDeviceKeyBoard.h">
+      <Filter>GameLib\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Input\InputDeviceKeyPad.h">
+      <Filter>GameLib\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Input\InputDeviceMouse.h">
+      <Filter>GameLib\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Input\InputManager.h">
+      <Filter>GameLib\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Input\InputDefine.h">
+      <Filter>GameLib\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Input\InputDeviceInterface.h">
+      <Filter>GameLib\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Loader\Loader.h">
+      <Filter>GameLib\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Loader\LoaderManager.h">
+      <Filter>GameLib\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Math\matrix.h">
+      <Filter>GameLib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\ModelDataType.h">
+      <Filter>GameLib\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\TextureDataType.h">
+      <Filter>GameLib\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\RenderingTexture.h">
+      <Filter>GameLib\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Loader\LoaderTexture.h">
+      <Filter>GameLib\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Loader\LoaderType.h">
+      <Filter>GameLib\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Asset\AssetManager.h">
+      <Filter>GameLib\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="hlsl\ShaderHeader.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\ai_assert.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\anim.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\camera.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\cexport.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\cfileio.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\cimport.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\color4.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\Compiler\poppack1.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\Compiler\pstdint.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\Compiler\pushpack1.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\config.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\DefaultLogger.hpp">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\defs.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\Exporter.hpp">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\Importer.hpp">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\importerdesc.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\IOStream.hpp">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\IOSystem.hpp">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\light.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\Logger.hpp">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\LogStream.hpp">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\material.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\matrix3x3.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\matrix4x4.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\mesh.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\metadata.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\NullLogger.hpp">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\port\AndroidJNI\AndroidJNIIOSystem.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\postprocess.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\ProgressHandler.hpp">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\quaternion.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\scene.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\texture.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\types.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\vector2.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\vector3.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Middleware\assimp\version.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Debugger\DebugGeometry.h">
+      <Filter>GameLib\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="hlsl\SkinSimpleShader_Header.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hlsl\SpriteHeader.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\Shader\ZRenderShader.h">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\Shader\SpriteShader.h">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\Shader\ShaderManager.h">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\Shader\ShaderDefine.h">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\Shader\ShaderBinder.h">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\Shader\ShaderBase.h">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\Shader\MrtShader.h">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\Shader\DefferdShader.h">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\DefferedSprite.h">
+      <Filter>GameLib\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Sound\SoundManager.h">
+      <Filter>GameLib\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Sound\SoundID.h">
+      <Filter>GameLib\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Asset\AssetFontTexture.h">
+      <Filter>GameLib\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Scene\SceneManager.h">
+      <Filter>GameLib\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystem\Camera\GameCamera.h">
+      <Filter>GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\Material.h">
+      <Filter>GameLib\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Scene\SceneBase.h">
+      <Filter>GameLib\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystem\Scene\SceneTitle.h">
+      <Filter>GameSystem\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystem\Scene\SceneMain.h">
+      <Filter>GameSystem\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\Light.h">
+      <Filter>GameLib\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Sound\WaveFile.h">
+      <Filter>GameLib\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Utility\UtilSound.h">
+      <Filter>GameLib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystem\Unit\UnitPlayer.h">
+      <Filter>GameSystem\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystem\Unit\UnitEnemy.h">
+      <Filter>GameSystem\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystem\Stage\StageManager.h">
+      <Filter>GameSystem\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystem\Stage\StageData.h">
+      <Filter>GameSystem\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Utility\UtilCsv.h">
+      <Filter>GameLib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Loader\LoaderModel_FBX.h">
+      <Filter>GameLib\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Collision\CollisionGeometry.h">
+      <Filter>GameLib\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\MotionEvent\MotionEvent.h">
+      <Filter>GameLib\MotionEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystem\ProjectDefine.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystem\ProjectParam.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\MotionEvent\MotionEventData.h">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\Shader\PostEffect.h">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Utility\UtilSafeArray.h">
+      <Filter>GameLib\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Collision\CollisionManagerSys.h">
+      <Filter>GameLib\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystem\Collision\CollisionManager.h">
+      <Filter>GameSystem\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystem\Unit\UnitBase.h">
+      <Filter>GameSystem\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystem\Scene\SceneDebug.h">
+      <Filter>GameSystem\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystem\Gimmick\GimmickGoal.h">
+      <Filter>GameSystem\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystem\Gimmick\GimmickSwitch.h">
+      <Filter>GameSystem\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystem\Gimmick\GimmickBase.h">
+      <Filter>GameSystem\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\Shader\GetBright.h">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\Shader\BlurShader.h">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameWork\Rendering\BlurSprite.h">
+      <Filter>GameLib\Rendering</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ntg.cpp">
+      <Filter>GameSystem\Init\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Win32\Window.cpp">
+      <Filter>GameLib\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\DXUtil\DxMng.cpp">
+      <Filter>GameLib\DXUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystem\GameSystem.cpp">
+      <Filter>GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\RenderingManager.cpp">
+      <Filter>GameLib\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Asset\AssetTexture.cpp">
+      <Filter>GameLib\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Asset\AssetMesh.cpp">
+      <Filter>GameLib\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Math\vector2.cpp">
+      <Filter>GameLib\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Math\vector3.cpp">
+      <Filter>GameLib\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Utility\UtilMath.cpp">
+      <Filter>GameLib\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\DXUtil\UtilDX11.cpp">
+      <Filter>GameLib\DXUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Asset\AssetModel.cpp">
+      <Filter>GameLib\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Task\Task.cpp">
+      <Filter>GameLib\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\Model.cpp">
+      <Filter>GameLib\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\Sprite.cpp">
+      <Filter>GameLib\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Task\TaskScheduler.cpp">
+      <Filter>GameLib\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\Render.cpp">
+      <Filter>GameLib\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\RenderingContext.cpp">
+      <Filter>GameLib\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\RenderingStage.cpp">
+      <Filter>GameLib\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\Motion.cpp">
+      <Filter>GameLib\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Math\vector4.cpp">
+      <Filter>GameLib\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Debugger\DebugConsole.cpp">
+      <Filter>GameLib\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Debugger\DebugFps.cpp">
+      <Filter>GameLib\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Debugger\DebugProfile.cpp">
+      <Filter>GameLib\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Camera\CameraBase.cpp">
+      <Filter>GameLib\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Camera\CameraManager.cpp">
+      <Filter>GameLib\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Camera\DebugCamera.cpp">
+      <Filter>GameLib\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Utility\UtilColor.cpp">
+      <Filter>GameLib\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Utility\UtilInput.cpp">
+      <Filter>GameLib\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\FileIO\FileIOWin.cpp">
+      <Filter>GameLib\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Font\FontManager.cpp">
+      <Filter>GameLib\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Font\UtilFont.cpp">
+      <Filter>GameLib\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Font\FontFile.cpp">
+      <Filter>GameLib\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Input\InputDeviceKeyPad.cpp">
+      <Filter>GameLib\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Input\InputDeviceMouse.cpp">
+      <Filter>GameLib\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Input\InputManager.cpp">
+      <Filter>GameLib\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Input\InputDeviceKeyBoard.cpp">
+      <Filter>GameLib\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Loader\Loader.cpp">
+      <Filter>GameLib\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Loader\LoaderManager.cpp">
+      <Filter>GameLib\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Math\matrix.cpp">
+      <Filter>GameLib\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>GameSystem\Init\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\RenderingTexture.cpp">
+      <Filter>GameLib\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Asset\AssetManager.cpp">
+      <Filter>GameLib\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Loader\LoaderTexture.cpp">
+      <Filter>GameLib\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Debugger\DebugGeometry.cpp">
+      <Filter>GameLib\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\Shader\ZRenderShader.cpp">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\Shader\SpriteShader.cpp">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\Shader\ShaderManager.cpp">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\Shader\ShaderBinder.cpp">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\Shader\ShaderBase.cpp">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\Shader\MrtShader.cpp">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\Shader\DefferdShader.cpp">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\DefferedSprite.cpp">
+      <Filter>GameLib\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Sound\SoundManager.cpp">
+      <Filter>GameLib\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Asset\AssetFontTexture.cpp">
+      <Filter>GameLib\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Scene\SceneManager.cpp">
+      <Filter>GameLib\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\Material.cpp">
+      <Filter>GameLib\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystem\Scene\SceneTitle.cpp">
+      <Filter>GameSystem\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystem\Camera\GameCamera.cpp">
+      <Filter>GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystem\Scene\SceneMain.cpp">
+      <Filter>GameSystem\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\Light.cpp">
+      <Filter>GameLib\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Sound\WaveFile.cpp">
+      <Filter>GameLib\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystem\Unit\UnitPlayer.cpp">
+      <Filter>GameSystem\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystem\Unit\UnitEnemy.cpp">
+      <Filter>GameSystem\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystem\Stage\StageManager.cpp">
+      <Filter>GameSystem\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Loader\LoaderModel_FBX.cpp">
+      <Filter>GameLib\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\MotionEvent\MotionEvent.cpp">
+      <Filter>GameLib\MotionEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystem\ProjectParam.cpp">
+      <Filter>GameSystem\Init\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\Shader\PostEffect.cpp">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Collision\CollisionManagerSys.cpp">
+      <Filter>GameLib\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystem\Collision\CollisionManager.cpp">
+      <Filter>GameSystem\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Collision\CollisionGeometry.cpp">
+      <Filter>GameLib\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystem\Scene\SceneDebug.cpp">
+      <Filter>GameSystem\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Utility\UtilSound.cpp">
+      <Filter>GameLib\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystem\Unit\UnitBase.cpp">
+      <Filter>GameSystem\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystem\Gimmick\GimmickGoal.cpp">
+      <Filter>GameSystem\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystem\Gimmick\GimmickSwitch.cpp">
+      <Filter>GameSystem\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystem\Gimmick\GimmickBase.cpp">
+      <Filter>GameSystem\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\Shader\GetBright.cpp">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\Shader\BlurShader.cpp">
+      <Filter>GameLib\Rendering\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FrameWork\Rendering\BlurSprite.cpp">
+      <Filter>GameLib\Rendering</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ntg.rc">
+      <Filter>GameSystem\Init\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>GameSystem\Init\Resource Files</Filter>
+    </Image>
+    <Image Include="ntg.ico">
+      <Filter>GameSystem\Init\Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\FrameWork\DirectXTex\DirectXTex.inl">
+      <Filter>GameLib\DirectXTex</Filter>
+    </None>
+    <None Include="src\Middleware\assimp\color4.inl">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </None>
+    <None Include="src\Middleware\assimp\material.inl">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </None>
+    <None Include="src\Middleware\assimp\matrix3x3.inl">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </None>
+    <None Include="src\Middleware\assimp\matrix4x4.inl">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </None>
+    <None Include="src\Middleware\assimp\quaternion.inl">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </None>
+    <None Include="src\Middleware\assimp\vector2.inl">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </None>
+    <None Include="src\Middleware\assimp\vector3.inl">
+      <Filter>GameSystem\Init\Header Files</Filter>
+    </None>
+    <None Include="hlsl\DefferedHeader.hlsli">
+      <Filter>GameLib\Rendering\ShaderFile</Filter>
+    </None>
+    <None Include="hlsl\Mrt.hlsli">
+      <Filter>GameLib\Rendering\ShaderFile</Filter>
+    </None>
+    <None Include="hlsl\SpriteHeader.hlsli">
+      <Filter>GameLib\Rendering\ShaderFile</Filter>
+    </None>
+    <None Include="hlsl\BlurHeader.hlsli">
+      <Filter>GameLib\Rendering\ShaderFile</Filter>
+    </None>
+    <None Include="hlsl\PostEffectHeader.hlsli">
+      <Filter>GameLib\Rendering\ShaderFile</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="hlsl\DefferedShader_VS.hlsl">
+      <Filter>GameLib\Rendering\ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\DefferedShader_PS.hlsl">
+      <Filter>GameLib\Rendering\ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\Mrt_PS.hlsl">
+      <Filter>GameLib\Rendering\ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\Mrt_VS.hlsl">
+      <Filter>GameLib\Rendering\ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\SpriteShader_PS.hlsl">
+      <Filter>GameLib\Rendering\ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\SpriteShader_VS.hlsl">
+      <Filter>GameLib\Rendering\ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\PostEffect.hlsl">
+      <Filter>GameLib\Rendering\ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\ZRender_PS.hlsl">
+      <Filter>GameLib\Rendering\ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\Blur.hlsl">
+      <Filter>GameLib\Rendering\ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="hlsl\GetBright.hlsl">
+      <Filter>GameLib\Rendering\ShaderFile</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

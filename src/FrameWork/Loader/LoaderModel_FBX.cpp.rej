@@ -1,0 +1,27 @@
+﻿diff a/src/FrameWork/Loader/LoaderModel_FBX.cpp b/src/FrameWork/Loader/LoaderModel_FBX.cpp	(rejected hunks)
+@@ -884,18 +884,14 @@
+ 		vaValue.push_back(vec);
+ 		faValueTime.push_back(0.0f);
+ 
+-		for (s32 k = 0; k < nTypeMax; ++k)
++		if (paCurve[0] != nullptr)
+ 		{
+-			if (paCurve[k] != nullptr)
+-			{
+-				faValueTime[j] = (f32)paCurve[k]->KeyGetTime(j).GetSecondDouble();
+-				if (k == 0)
+-					vaValue[j].x = paCurve[k]->KeyGetValue(j);
+-				if (k == 1)
+-					vaValue[j].y = paCurve[k]->KeyGetValue(j);
+-				if (k == 2)
+-					vaValue[j].z = paCurve[k]->KeyGetValue(j);
+-			}
++			faValueTime[j] = (f32)paCurve[0]->KeyGetTime(j).GetSecondDouble();	//・ｽL・ｽ[・ｽ^・ｽC・ｽ・ｽ・ｽ・ｽXYZ・ｽﾅ抵ｿｽ
++
++			//・ｽW・ｽ・ｽ・ｽ・ｽ・ｽ・ｽ・ｽﾄ計・ｽZ
++			vaValue[j].x = paCurve[0]->KeyGetValue(j) * fConf;
++			vaValue[j].y = paCurve[1]->KeyGetValue(j) * fConf;
++			vaValue[j].z = paCurve[2]->KeyGetValue(j) * fConf;
+ 		}
+ 	}
+ 

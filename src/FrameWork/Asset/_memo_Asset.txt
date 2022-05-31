@@ -1,0 +1,16 @@
+﻿Asset管理について
+
+AssetManagerが全Assetを一元管理する。
+Loaderはファイルからアセットの読み込みを行い、AssetManagerへ保存。
+全AssetはAssetBaseから継承されており、全てに一意のIDを振り分ける。
+
+----
+
+AssetBase...アセット周りの基底クラス。全アセットはこのクラスを継承する
+AssetFontTexture...フォントテクスチャ
+AssetManager...アセットをすべて管理しているクラス
+AssetMesh...メッシュデータ。データは基本不変のため、共有可能。（頂点データをいじる場合は対応が要る）
+AssetModel...モデルデータ。上記AssetMesh、独自のマテリアル、モーションを所持する
+AssetTexture...テクスチャデータ。
+
+----

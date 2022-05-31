@@ -1,0 +1,6 @@
+﻿Collisionについて
+
+----
+
+CollisionGeometory...コリジョンデータ。形状などのコリジョンパラメータはこのクラスがもつ
+CollisionManagerSys...コリジョン管理。システム部分なので独自の実装する場合はこのクラスを継承すること

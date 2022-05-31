@@ -1,0 +1,13 @@
+﻿#pragma once
+
+enum E_SOUND_ID
+{
+	eSOUNDID_NONE,
+	eSOUNDID_BGM,
+	eSOUNDID_SWITCH,
+	eSOUNDID_CLEAR,
+	eSOUNDID_GAMEOVER,
+	eSOUNDID_MAX
+};
+
+//EOF

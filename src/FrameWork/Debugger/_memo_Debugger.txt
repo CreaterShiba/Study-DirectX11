@@ -1,0 +1,8 @@
+﻿Debuggerについて
+
+----
+
+DebugConsole...ログ出力など
+DebugFps...FPS表示するだけ
+DebugGeometry...視覚的にコリジョン形状などが見えるように
+DebugProfile...プロファイル。ms表示、データの動きがわかるように
